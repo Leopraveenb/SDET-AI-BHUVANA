@@ -13,6 +13,7 @@ Then Enter the Payment Details "<Firstname>", "<Lastname>", "<billingAddress>", 
 Then Click the Book Now Button
 And Successfully Validate the Booking
 Then Validate the orderid
+Then Validate the orderid
 
 Examples:
 | username     | password     | location | hotels      | roomtype | numberofrooms | checkindate | checkoutdate | adults  | children | Firstname | Lastname | billingAddress | cardNumber       | cardType | expMonth | expYear | cvv |
