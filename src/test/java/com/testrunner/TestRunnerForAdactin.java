@@ -1,10 +1,7 @@
 package com.testrunner;
 
 import org.junit.runner.RunWith;
-//changes by Dhana
-
 //Cloned by Bhuvana
-
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
