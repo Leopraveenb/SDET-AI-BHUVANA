@@ -1,6 +1,7 @@
 Feature: Going to Validate AdactinBooking System
 
 Scenario Outline: TC01 - Complete booking session of the hotel and validate the next page
+
 Given To launch the Url
 And Validate the homepage
 When Enter the "<username>" and "<password>"
@@ -12,6 +13,7 @@ And Successfully Validate the Select Hotel
 Then Enter the Payment Details "<Firstname>", "<Lastname>", "<billingAddress>", "<cardNumber>", "<cardType>", "<expMonth>", "<expYear>", "<cvv>" for booking
 Then Click the Book Now Button
 And Successfully Validate the Booking
+Then Validate the orderid
 Then Validate the orderid
 
 Examples:
